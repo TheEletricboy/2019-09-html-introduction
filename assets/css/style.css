@@ -1,0 +1,6 @@
+h1#mainHeader{
+	margin: 0 0 3vh 0;	/*top right bottom left*/
+	background-color: #EAEEFF;
+	text-align: center;
+	padding: 2vh 0;
+}
