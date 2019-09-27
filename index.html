@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flexbox</title>
+    <style>
+        body{
+            background-color: rgb(0, 255, 76);
+            font-family: 'Courier New', 'Courier New', Courier, monospace;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav{
+            display: flex; 
+            color: rgb(27, 107, 80);
+            margin: auto;
+            background-color: rgb(206, 23, 181);
+            justify-content: center;
+        }
+        div.navItem{
+            height: 5vh;
+            min-width: 10vw;
+            margin: 2vw;
+            background-color: brown;
+            text-align: center;
+
+        }a{
+            text-decoration: none;  
+            color: black;
+            background-color:yellow;
+            font-size: 2.0em;
+        }
+        div.navItem a:hover{
+            font-size: 1.9em;
+            font-weight: bold;
+        }
+        div.navItem a:active{
+            color: rgb(177, 177, 0);
+            font-style: italic;
+            font-size: 5.0em;
+            text-decoration-line: line-through;
+        }
+        .containerBikeImages{
+            display:flex;
+            width:80%;
+            margin: auto;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .bikeImage{
+            min-width:15vw;
+            width:5%;
+            height: 25vmin;
+            background-color: rgb(24, 212, 172);
+            margin: 3vmin;
+            
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="navItem"><a href="#">Home</a></div>
+        <div class="navItem"><a href="#">About</a></div>
+        <div class="navItem"><a href="#">Blog</a></div>
+        <div class="navItem"><a href="#">Contact</a></div>
+        
+        
+    </nav>
+    <h1 style="text-align:center">
+            Sell my Bike
+        </h1>
+    <section class="containerBikeImages">
+            
+            <div class="bikeImage"><img id="image01" src="https://picsum.photos/200/200">Image</div>
+            <div class="bikeImage"><img id="image02" src="https://picsum.photos/200/200">Image</div>
+            <div class="bikeImage"><img id="image03" src="https://picsum.photos/200/200">Image</div>
+            <div class="bikeImage"><img id="image04" src="https://picsum.photos/200/200">Image</div>
+            <div class="bikeImage"><img id="image05" src="https://picsum.photos/200/200">Image</div>
+            <div class="bikeImage"><img id="image06" src="https://picsum.photos/200/200">Image</div>
+            <div class="bikeImage"><img id="image07" src="https://picsum.photos/200/200">Image</div>
+            <div class="bikeImage"><img id="image08" src="https://picsum.photos/200/200">Image</div>
+            <div class="bikeImage"><img id="image09" src="https://picsum.photos/200/200">Image</div>
+
+
+            
+    </section>
+
+    <section class="containerBikeImages2">
+            
+            <div class="bikeImage"><img id="image01" src="https://picsum.photos/200/200">Image</div>
+
+
+            
+    </section>
+
+    <script>
+        function getImages(){
+            var counter = 121;
+            for(var counter=120;counter<160;counter++){
+                var image = document.createElement("img");
+                image.width="120";
+                image.id="img" + counter;
+                document.getElementById('containerBike')
+            }
+        }
+    </script>
+    
+</body>
+</html>
