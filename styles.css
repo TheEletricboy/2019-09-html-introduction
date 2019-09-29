@@ -15,7 +15,7 @@ body{
     background-attachment:fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
 }
 
 h1{
@@ -112,19 +112,22 @@ main{
 
 
 main .card:nth-of-type(1){
-    background: #bebebe;
+    background: #414141;
+    color: #eeeeee;
 }
 main .card:nth-of-type(2){
     background: #777777;
 }
 main .card:nth-of-type(3){
-    background: #bebebe;
+    background: #414141;
+    color: #eeeeee;
 }
 main .card:nth-of-type(4){
     background: #777777;
 }
 main .card:nth-of-type(5){
-    background: #bebebe;
+    background: #414141;
+    color: #eeeeee;
 }
 main .card:nth-of-type(6){
     background: #777777;
