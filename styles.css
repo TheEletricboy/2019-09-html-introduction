@@ -37,6 +37,11 @@ h1{
         0px 0px 0 rgb(155, 155, 155);
     
 }
+h1 .Avatar{
+    border-radius: 50%;
+    height: 14vw;
+    width: 15vw;
+}
 h2{
     
     font-size: 2em;
@@ -138,6 +143,7 @@ main .card:nth-of-type(6){
 
 @media (max-width: 768px) {
     h1 {
+    margin-top: 50%;    
     font-size: 1.8em;
     }
 }
