@@ -100,9 +100,12 @@ main{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
     gap: 1rem;
+    padding-left: 5%;
+    padding-right: 5%;
     
     
 }
+
 .card:hover{
     transition: transform 1s;
     
