@@ -28,13 +28,13 @@ h1{
     color: rgb(0, 0, 0);
     text-shadow:
         -1px -1px 0 rgb(0, 0, 0),
-        1px -1px 0 rgb(155, 155, 155),
-        -1px 1px 0 rgb(155, 155, 155),
-        2px 2px 0 rgb(155, 155, 155),
-        0px 0px 0 rgb(155, 155, 155),
-        0px 0px 0 rgb(155, 155, 155),
-        0px 0px 0 rgb(155, 155, 155),
-        0px 0px 0 rgb(155, 155, 155);
+        1px -1px 0 white,
+        -1px 1px 0 white,
+        2px 2px 0 white,
+        0px 0px 0 white,
+        0px 0px 0 white,
+        0px 0px 0 white,
+        0px 0px 0 white;
     
 }
 h1 .Avatar{
@@ -53,13 +53,13 @@ h2{
 
     text-shadow:
         -1px -1px 0 rgb(0, 0, 0),
-        1px -1px 0 rgb(155, 155, 155),
-        -1px 1px 0 rgb(155, 155, 155),
-        2px 2px 0 rgb(155, 155, 155),
-        0px 0px 0 rgb(155, 155, 155),
-        0px 0px 0 rgb(155, 155, 155),
-        0px 0px 0 rgb(155, 155, 155),
-        0px 0px 0 rgb(155, 155, 155);
+        1px -1px 0 white,
+        -1px 1px 0 white,
+        2px 2px 0 white,
+        0px 0px 0 white,
+        0px 0px 0 white,
+        0px 0px 0 white,
+        0px 0px 0 white;
 }
 
 nav {
