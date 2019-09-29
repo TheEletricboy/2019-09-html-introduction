@@ -7,7 +7,7 @@ body{
     padding: 0;
     
     /* background-size: 2000px ; */
-    background: url(woods1.jpg);
+    background: url(lightbulb2.jpg);
     height: 100%;
 
     /* Create the parallax scrolling effect */
@@ -19,13 +19,13 @@ body{
 
 h1{
     
-    color: #000000;
+    color: #ffffff;
     padding-top: 2%;
     font-size: 4em;
     font-family: "Roboto";
     line-height: 0%;
 
-    color: rgb(0, 0, 0);
+    
     /* text-shadow:
         -1px -1px 0 rgb(0, 0, 0),
         1px -1px 0 white,
@@ -45,7 +45,7 @@ h1 .Avatar{
 h2{
     
     font-size: 2em;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
     line-height: 10%;
     margin-top: 5%;
@@ -124,23 +124,29 @@ main{
 main .card:nth-of-type(1){
     background: #414141;
     color: #eeeeee;
+    opacity: 0.9;
 }
 main .card:nth-of-type(2){
     background: #777777;
+    opacity: 0.9;
 }
 main .card:nth-of-type(3){
     background: #414141;
     color: #eeeeee;
+    opacity: 0.9;
 }
 main .card:nth-of-type(4){
     background: #777777;
+    opacity: 0.9;
 }
 main .card:nth-of-type(5){
     background: #414141;
     color: #eeeeee;
+    opacity: 0.9;
 }
 main .card:nth-of-type(6){
     background: #777777;
+    opacity: 0.9;
 }
 
 
