@@ -165,6 +165,7 @@ main .card:nth-of-type(6){
         background-position: 20%  20% !important;
         background-size: auto;
     }
+
 }
 @media (max-width: 768px) {
     h2 {
@@ -176,4 +177,10 @@ main .card:nth-of-type(6){
     h1 {
     padding-top: 10%;
     }
+}
+
+/* Chrome 29+ */
+@media screen and (-webkit-min-device-pixel-ratio:0)
+  and (min-resolution:.001dpcm) {
+    div{top:0;} 
 }
