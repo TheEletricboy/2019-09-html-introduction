@@ -7,8 +7,8 @@ body{
     padding: 0;
     
     /* background-size: 2000px ; */
-    background: url(lightbulb3.jpg);
-    /* background: url(table2.jpg); */
+    /* background: url(lightbulb3.jpg); */
+    background: url(table2.jpg);
     height: 100%;
 
     /* Create the parallax scrolling effect */
