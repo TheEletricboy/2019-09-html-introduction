@@ -161,10 +161,6 @@ main .card:nth-of-type(6){
         width: 26vw;
         margin-bottom: 10%;
     }
-    body{
-        background-position: top;
-    }
-
 }
 @media (max-width: 768px) {
     h2 {
@@ -177,10 +173,3 @@ main .card:nth-of-type(6){
     padding-top: 10%;
     }
 }
-
-/* Chrome 29+ */
-/* @media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
-    .chrome {
-        background-position: 20%  20% !important;
-    }
-} */
