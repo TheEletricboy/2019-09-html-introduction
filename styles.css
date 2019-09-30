@@ -163,6 +163,7 @@ main .card:nth-of-type(6){
     }
     body{
         background-position: 20%  20% !important;
+        background-size: auto;
     }
 }
 @media (max-width: 768px) {
