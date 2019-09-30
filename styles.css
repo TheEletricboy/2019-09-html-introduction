@@ -162,8 +162,7 @@ main .card:nth-of-type(6){
         margin-bottom: 10%;
     }
     body{
-        background-position: 20%  20% !important;
-        background-size: auto;
+        background-position: top;
     }
 
 }
@@ -180,8 +179,8 @@ main .card:nth-of-type(6){
 }
 
 /* Chrome 29+ */
-@media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
+/* @media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
     .chrome {
         background-position: 20%  20% !important;
     }
-}
+} */
