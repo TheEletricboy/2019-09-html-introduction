@@ -9,7 +9,8 @@ body{
     /* background-size: 2000px ; */
     /* background: url(lightbulb3.jpg); */
     background: url(table2.jpg);
-    height: 100%;
+    height: 100vh;
+    max-height: 100vh;
 
     /* Create the parallax scrolling effect */
     background-attachment:fixed;
